@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Inder">
         <activity
+            android:name=".Order"
+            android:exported="false" />
+        <activity
+            android:name=".Transaction"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

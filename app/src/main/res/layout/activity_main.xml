@@ -57,6 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="25dp"
+                android:onClick="onStartMenuActivity"
                 android:text="Menu" />
 
             <Button
@@ -64,6 +65,7 @@
                 android:layout_width="270dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:onClick="onStartOrderActivity"
                 android:text="Pemesanan" />
 
             <Button
@@ -71,6 +73,7 @@
                 android:layout_width="270dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:onClick="onStartTransactionActivity"
                 android:text="Transaksi" />
 
             <TextView
