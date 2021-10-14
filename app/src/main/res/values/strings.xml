@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Inder</string>
+    <string name="app_name">Instant Order</string>
+    <string name="welcome">Selamat datang di aplikasi Instant Order</string>
+    <string name="app_shortname">Inder</string>
+    <string name="menu">Menu</string>
+    <string name="food">Makanan</string>
+    <string name="drink">Minuman</string>
 </resources>
