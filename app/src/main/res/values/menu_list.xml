@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_list">
+        <item>Nasi Goreng</item>
+        <item>Pecel Ayam</item>
+        <item>Bakso</item>
+        <item>Mie Goreng</item>
+        <item>Mie Kuah</item>
+    </string-array>
+</resources>

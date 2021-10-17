@@ -1,14 +1,31 @@
 package com.example.inder;
 
-import androidx.appcompat.app.AppCompatActivity;
+public class Menu {
 
-import android.os.Bundle;
+    int image;
+    String title, desc, price;
 
-public class Menu extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
+    public Menu(int image, String title, String desc, String price){
+        this.image = image;
+        this.title = title;
+        this.desc = desc;
+        this.price = price;
     }
+
+    public int getImage(){
+        return image;
+    }
+
+    public String getTitle(){
+        return title;
+    }
+
+    public String getDesc(){
+        return desc;
+    }
+
+    public String getPrice(){
+        return price;
+    }
+
 }

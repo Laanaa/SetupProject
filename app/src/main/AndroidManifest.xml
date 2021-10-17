@@ -3,6 +3,7 @@
     package="com.example.inder">
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -10,13 +11,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Inder">
         <activity
+            android:name=".DetailMenu"
+            android:exported="false" />
+        <activity
             android:name=".Order"
             android:exported="false" />
         <activity
             android:name=".Transaction"
             android:exported="false" />
         <activity
-            android:name=".Menu"
+            android:name=".MenuActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
