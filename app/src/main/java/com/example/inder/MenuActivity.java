@@ -29,7 +29,15 @@ public class MenuActivity extends AppCompatActivity {
         Log.d(TAG, "onCreate: ");
 
         //untuk menambahkan data baru
-        menuList.add(new Menu(R.drawable._38483109, "Pancong ", "Pancong dengan beraneka rasa", "Rp. 20.000"));
+        menuList.add(new Menu(R.drawable._38483109, "Pancong", "Pancong dengan beraneka rasa", "Rp. 20.000"));
+        menuList.add(new Menu(R.drawable.rotibakar, "Roti Bakar", "Roti dengan bakaran yang merata dengan varian rasa yang beragam", "Rp. 18.000"));
+        menuList.add(new Menu(R.drawable.basoaci, "Baso Aci", "Baso aci cocok untuk orang yang suka aci dan tantangan pedas", "Rp. 20.000"));
+        menuList.add(new Menu(R.drawable.mie_kuah_pedas_pengusahasukses_314x314, "Mie Kuah", "Mie kuah dengan tambahan toping yang dapat dipilih sendiri", "Rp. 15.000"));
+        menuList.add(new Menu(R.drawable.mie_goreng_magelangan_pedas, "Mie Goreng", "Mie goreng dengan tambahan toping yang dapat dipilih sendiri", "Rp. 15.000"));
+        menuList.add(new Menu(R.drawable.mangopunch, "Mango Punch", "Minuman non coffe dengan campuran sari buah mangga dan yakult", "Rp. 23.000"));
+        menuList.add(new Menu(R.drawable.cappuccino_1, "Cappuccino", "Coffe paling laris dengan kemanisan yang bisa diatur", "Rp. 18.000"));
+        menuList.add(new Menu(R.drawable.latte, "Latte", "Coffe dengan tingkat kemanisan yang tidak terlalu manis", "Rp. 18.000"));
+        menuList.add(new Menu(R.drawable.redvalvet, "Red Valvet", "Minuman non coffe, cocok untuk penyuka minuman manis dengan rasa unik", "Rp. 24.000"));
         menuList.add(new Menu(R.drawable.panduan_singkat_cara_membuat_kopi_espresso, "Espresso", "Espresso rasa kopi yang sesungguhnya", "Rp. 15.000"));
         MenuListAdapter adapter = new MenuListAdapter(MenuActivity.this, R.layout.list_layout_menu, menuList);
 
