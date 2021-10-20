@@ -29,8 +29,8 @@ public class MenuActivity extends AppCompatActivity {
         Log.d(TAG, "onCreate: ");
 
         //untuk menambahkan data baru
-        menuList.add(new Menu(R.drawable.ic_launcher_background, "Pancong ", "Pancong dengan beraneka rasa", "Rp. 20.000"));
-        menuList.add(new Menu(R.drawable.ic_launcher_background, "Espresso", "Espresso rasa kopi yang sesungguhnya", "Rp. 15.000"));
+        menuList.add(new Menu(R.drawable._38483109, "Pancong ", "Pancong dengan beraneka rasa", "Rp. 20.000"));
+        menuList.add(new Menu(R.drawable.panduan_singkat_cara_membuat_kopi_espresso, "Espresso", "Espresso rasa kopi yang sesungguhnya", "Rp. 15.000"));
         MenuListAdapter adapter = new MenuListAdapter(MenuActivity.this, R.layout.list_layout_menu, menuList);
 
         listView.setAdapter(adapter);
