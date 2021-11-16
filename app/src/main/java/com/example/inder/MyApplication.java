@@ -16,7 +16,7 @@ public class MyApplication extends Application {
     }
 
     //    private String someVariable;
-//
+
     public List<Menu> getMenu() {
         return menuList;
     }

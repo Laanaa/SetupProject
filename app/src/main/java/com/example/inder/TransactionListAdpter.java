@@ -13,14 +13,14 @@ import androidx.annotation.Nullable;
 
 import java.util.List;
 
-public class MenuListAdapter extends ArrayAdapter<Menu> {
+public class TransactionListAdpter extends ArrayAdapter<Menu>{
     List<Menu> menuList;
 
     Context context;
 
     int resource;
 
-    public MenuListAdapter(Context context, int resource, List<Menu> homeList){
+    public TransactionListAdpter(Context context, int resource, List<Menu> homeList){
         super(context, resource, homeList);
         this.context = context;
         this.resource = resource;
@@ -55,5 +55,3 @@ public class MenuListAdapter extends ArrayAdapter<Menu> {
         return view;
     }
 }
-
-

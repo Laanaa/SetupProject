@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onStartTransactionActivity(View view) {
-        Intent myIntent = new Intent(this, Transaction.class);
+        Intent myIntent = new Intent(this, TransactionActivity.class);
         startActivity(myIntent);
     }
 

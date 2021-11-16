@@ -11,13 +11,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Inder">
         <activity
+            android:name=".activity_detail_transaction"
+            android:exported="false" />
+        <activity
             android:name=".DetailMenu"
             android:exported="false" />
         <activity
             android:name=".Order"
             android:exported="false" />
         <activity
-            android:name=".Transaction"
+            android:name=".TransactionActivity"
             android:exported="false" />
         <activity
             android:name=".MenuActivity"

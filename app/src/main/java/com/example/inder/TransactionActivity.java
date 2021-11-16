@@ -10,7 +10,9 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import java.util.List;
 
-public class MenuActivity extends AppCompatActivity {
+import android.os.Bundle;
+
+public class TransactionActivity extends AppCompatActivity {
 
     private static final String TAG = "MenuActivity";
     List<Menu> menuList;
@@ -38,7 +40,7 @@ public class MenuActivity extends AppCompatActivity {
         menuList.add(new Menu(R.drawable.latte, "Latte", "Coffe dengan tingkat kemanisan yang tidak terlalu manis", "Rp. 18.000"));
         menuList.add(new Menu(R.drawable.redvalvet, "Red Valvet", "Minuman non coffe, cocok untuk penyuka minuman manis dengan rasa unik", "Rp. 24.000"));
         menuList.add(new Menu(R.drawable.panduan_singkat_cara_membuat_kopi_espresso, "Espresso", "Espresso rasa kopi yang sesungguhnya", "Rp. 15.000"));
-        MenuListAdapter adapter = new MenuListAdapter(MenuActivity.this, R.layout.list_layout_menu, menuList);
+        TransactionListAdpter adapter = new TransactionListAdpter(TransactionActivity.this, R.layout.list_layout_transaction, menuList);
 
         listView.setAdapter(adapter);
 
@@ -61,7 +63,7 @@ public class MenuActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Log.d(TAG, "onResume: ");
-        MenuListAdapter adapter = new MenuListAdapter(MenuActivity.this, R.layout.list_layout_menu, menuList);
+        TransactionListAdpter adapter = new TransactionListAdpter(TransactionActivity.this, R.layout.list_layout_menu, menuList);
         listView.setAdapter(adapter);
     }
 }
