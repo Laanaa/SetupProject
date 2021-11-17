@@ -6,4 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".activity_detail_transaction">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Detail transaksi tidak ada."
+        android:textSize="24sp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

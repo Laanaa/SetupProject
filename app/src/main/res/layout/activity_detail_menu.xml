@@ -17,6 +17,6 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Detail tidak ada."
+        android:text="Detail menu tidak ada."
         android:textSize="24sp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
