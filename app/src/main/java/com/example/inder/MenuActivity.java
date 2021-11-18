@@ -49,10 +49,13 @@ public class MenuActivity extends AppCompatActivity {
                 String title =  menuList.get(position).title;
                 System.out.println(image);
                 Intent myIntent = new Intent(view.getContext(), DetailMenu.class);
-                myIntent.putExtra("image", image);
+                myIntent.putExtra("sampah", image);
                 myIntent.putExtra("title", title);
                 myIntent.putExtra("desc", menuList.get(position).desc);
-                startActivityForResult(myIntent, 0);
+//                Intent myIntent = new Intent(this, MenuActivity.class);
+//                Log.d(TAG, "onCreate: 2");
+                startActivity(myIntent);
+//                Log.d(TAG, "onCreate: 3");
             }
         });
     }
