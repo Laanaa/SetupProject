@@ -24,7 +24,7 @@ public class DetailMenu extends AppCompatActivity {
 
         Intent intentInput = getIntent();
         String titleText = intentInput.getStringExtra("title");
-        int imageId = intentInput.getIntExtra("sampah", -1);
+        int imageId = intentInput.getIntExtra("image", -1);
         String descText = intentInput.getStringExtra("desc");
 
         title.setText(titleText);

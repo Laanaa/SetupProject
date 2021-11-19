@@ -49,7 +49,7 @@ public class MenuActivity extends AppCompatActivity {
                 String title =  menuList.get(position).title;
                 System.out.println(image);
                 Intent myIntent = new Intent(view.getContext(), DetailMenu.class);
-                myIntent.putExtra("sampah", image);
+                myIntent.putExtra("image", image);
                 myIntent.putExtra("title", title);
                 myIntent.putExtra("desc", menuList.get(position).desc);
 //                Intent myIntent = new Intent(this, MenuActivity.class);
