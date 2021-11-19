@@ -47,11 +47,13 @@ public class MenuActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 int image =  menuList.get(position).image;
                 String title =  menuList.get(position).title;
+                String price = menuList.get(position).price;
                 System.out.println(image);
                 Intent myIntent = new Intent(view.getContext(), DetailMenu.class);
                 myIntent.putExtra("image", image);
                 myIntent.putExtra("title", title);
                 myIntent.putExtra("desc", menuList.get(position).desc);
+                myIntent.putExtra("price", price);
 //                Intent myIntent = new Intent(this, MenuActivity.class);
 //                Log.d(TAG, "onCreate: 2");
                 startActivity(myIntent);
