@@ -2,7 +2,7 @@ package com.example.inder;
 
 public class Menu {
 
-    int image;
+    int image, total;
     String title, desc, price;
 
     public Menu(int image, String title, String desc, String price){
@@ -10,6 +10,7 @@ public class Menu {
         this.title = title;
         this.desc = desc;
         this.price = price;
+        this.total = 0;
     }
 
     public int getImage(){
@@ -28,4 +29,16 @@ public class Menu {
         return price;
     }
 
+    public int getTotal(){ return total;}
+
+    public void incTotal(){
+        total += 1;
+    }
+
+    public void decTotal(){
+        total -= 1;
+        if (total < 0) {
+            total = 0;
+        }
+    }
 }
