@@ -1,11 +1,14 @@
 package com.example.inder;
 
+import android.graphics.Bitmap;
+
 public class Menu {
 
-    int image, total;
+    int total;
     String title, desc, price;
+    Bitmap image;
 
-    public Menu(int image, String title, String desc, String price){
+    public Menu(Bitmap image, String title, String desc, String price){
         this.image = image;
         this.title = title;
         this.desc = desc;
@@ -13,7 +16,7 @@ public class Menu {
         this.total = 0;
     }
 
-    public int getImage(){
+    public Bitmap getImage(){
         return image;
     }
 

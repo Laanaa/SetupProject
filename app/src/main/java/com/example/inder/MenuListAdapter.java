@@ -3,6 +3,7 @@ package com.example.inder;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -61,7 +62,8 @@ public class MenuListAdapter extends ArrayAdapter<Menu> {
         Menu menu = menuList.get(position);
 
         //adding values to the list item
-        imageView.setImageDrawable(context.getResources().getDrawable(menu.getImage()));
+//        imageView.setImageDrawable(context.getResources().getDrawable(menu.getImage()));
+        imageView.setImageBitmap(menu.getImage());
         title.setText(menu.getTitle());
         desc.setText(menu.getDesc());
         price.setText(menu.getPrice());
@@ -71,7 +73,7 @@ public class MenuListAdapter extends ArrayAdapter<Menu> {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "onClick: " + "YOO");
-                int image =  menuList.get(position).image;
+                Bitmap image =  menuList.get(position).image;
                 String title =  menuList.get(position).title;
                 String price = menuList.get(position).price;
                 System.out.println(image);

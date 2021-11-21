@@ -5,4 +5,6 @@
     <string name="menu">Menu</string>
     <string name="food">Makanan</string>
     <string name="drink">Minuman</string>
+    <string name="title_activity_view">Activity View</string>
+    <string name="pick_image_intent_text">Pick Image</string>
 </resources>

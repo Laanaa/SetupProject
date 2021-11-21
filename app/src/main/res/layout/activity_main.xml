@@ -67,7 +67,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:backgroundTint="@color/blue"
-                android:onClick="onStartOrderActivity"
                 android:text="Pemesanan"
                 android:textColor="@color/white" />
 
@@ -77,8 +76,16 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:backgroundTint="@color/blue"
-                android:onClick="onStartTransactionActivity"
                 android:text="Transaksi"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnCatalog"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/blue"
+                android:text="Catalog"
                 android:textColor="@color/white" />
 
             <TextView

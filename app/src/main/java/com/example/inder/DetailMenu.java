@@ -3,6 +3,7 @@ package com.example.inder;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -26,12 +27,12 @@ public class DetailMenu extends AppCompatActivity {
 
         Intent intentInput = getIntent();
         String titleText = intentInput.getStringExtra("title");
-        int imageId = intentInput.getIntExtra("image", -1);
+        Bitmap imageBitmap = (Bitmap) intentInput.getExtras().get("image");
         String descText = intentInput.getStringExtra("desc");
         String priceText = intentInput.getStringExtra("price");
 
         title.setText(titleText);
-        image.setImageDrawable(getApplicationContext().getResources().getDrawable(imageId));
+        image.setImageBitmap(imageBitmap);
         desc.setText(descText);
         price.setText(priceText);
     }

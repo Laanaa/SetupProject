@@ -37,21 +37,6 @@ public class TransactionListAdpter extends ArrayAdapter<Menu>{
         //njupuk xml
         View view = layoutInflater.inflate(resource, null, false);
 
-        //getting the view elements of the list from the view
-        ImageView imageView = view.findViewById(R.id.image);
-        TextView title = view.findViewById(R.id.textTitle);
-        TextView desc = view.findViewById(R.id.textDescription);
-        TextView price = view.findViewById(R.id.textPrice);
-
-        //getting the specified position
-        Menu home = menuList.get(position);
-
-        //adding values to the list item
-        imageView.setImageDrawable(context.getResources().getDrawable(home.getImage()));
-        title.setText(home.getTitle());
-        desc.setText(home.getDesc());
-        price.setText(home.getPrice());
-
         return view;
     }
 }
