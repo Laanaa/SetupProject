@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Inder">
         <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity_detail_transaction"
             android:exported="false" />
         <activity

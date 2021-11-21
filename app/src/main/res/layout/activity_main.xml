@@ -52,18 +52,17 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/btnMenu"
                 android:layout_width="270dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="25dp"
                 android:backgroundTint="@color/blue"
-                android:onClick="onStartMenuActivity"
                 android:text="Menu"
                 android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/button13"
+                android:id="@+id/btnOrder"
                 android:layout_width="270dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -73,7 +72,7 @@
                 android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/btnTransaction"
                 android:layout_width="270dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
