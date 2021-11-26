@@ -1,10 +1,12 @@
 HALAMAN HOME
 
-![Screenshot_54](https://user-images.githubusercontent.com/62891893/138400160-3b0194db-5d75-4be7-92f5-440886bad26b.png)
+![Screenshot_106](https://user-images.githubusercontent.com/62891893/143532798-8bed4722-6792-41f9-b465-15faf3904da5.png)
 
 HALAMAN MENU
 
-![Screenshot_55](https://user-images.githubusercontent.com/62891893/138400286-a16e218b-343f-4afe-932d-ee5d9b10c51e.png)
+![WhatsApp Image 2021-11-26 at 12 41 19](https://user-images.githubusercontent.com/62891893/143532613-83ec4f71-4803-4c0a-8491-d9fdf2c553f7.jpeg)
+![WhatsApp Image 2021-11-26 at 12 42 52](https://user-images.githubusercontent.com/62891893/143532699-9f8bf3c7-8726-49c9-9b6a-9f98457b7ed0.jpeg)
+
 
 HALAMAN DETAIL MENU
 
@@ -17,3 +19,7 @@ HALAMAN PEMESANAN
 HALAMAN TRANSAKSI
 
 ![Screenshot_58](https://user-images.githubusercontent.com/62891893/138400887-7017ff3b-22f8-4c28-8181-6e80eee5f77a.png)
+
+HALAMAN CATALOG
+
+![Screenshot_107](https://user-images.githubusercontent.com/62891893/143532836-8ce8fee3-c8ae-47df-94f4-8650140d73af.png)
