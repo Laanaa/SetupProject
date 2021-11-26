@@ -28,7 +28,7 @@ public class CatalogActivity extends AppCompatActivity {
     EditText name, description, price;
     private static final int PICK_IMAGE_ID = 234; // the number doesn't matter
     Bitmap imageBitmap;
-    Button add, show;
+    Button add;
     ImageView image;
 
     @Override
@@ -41,7 +41,6 @@ public class CatalogActivity extends AppCompatActivity {
         price = (EditText) findViewById(R.id.price);
         image =  findViewById(R.id.addImage);
         add = (Button) findViewById(R.id.btnAdd);
-        show = (Button) findViewById(R.id.btnShow);
 
 //        db = openOrCreateDatabase(DB_INDER, Context.MODE_PRIVATE, null);
 //

@@ -34,6 +34,6 @@ public class DetailMenu extends AppCompatActivity {
         title.setText(titleText);
         image.setImageBitmap(imageBitmap);
         desc.setText(descText);
-        price.setText(priceText);
+        price.setText("Rp." + priceText);
     }
 }
